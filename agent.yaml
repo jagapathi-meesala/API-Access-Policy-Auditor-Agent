@@ -1,0 +1,23 @@
+spec_version: "0.1.0"
+name: api-access-policy-auditor-agent
+version: "1.0.0"
+description: Audits supplied API access policies for overly broad permissions, missing controls, risky combinations, and unclear governance.
+author: jagapathi-meesala
+license: MIT
+skills:
+  - policy-review
+  - permission-analysis
+  - audit-reporting
+tools:
+  - inspect-access-policy
+  - analyze-permissions
+  - generate-audit-report
+runtime:
+  max_turns: 5
+  temperature: 0.2
+  timeout: 30
+tags:
+  - api-security
+  - access-control
+  - policy-audit
+  - governance

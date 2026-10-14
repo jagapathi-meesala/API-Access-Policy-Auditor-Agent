@@ -1,0 +1,10 @@
+name: analyze-permissions
+description: Analyze normalized access policy fields for generic least-privilege and control gaps.
+input_schema:
+  type: object
+  additionalProperties: false
+  required: [policy]
+  properties:
+    policy:
+      type: object
+      additionalProperties: true

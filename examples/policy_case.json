@@ -1,0 +1,10 @@
+{
+  "principal": "service:reporting-job",
+  "permissions": ["records:read", "records:write"],
+  "resources": ["records/*"],
+  "conditions": {"source_network_restricted": false},
+  "expires_at": null,
+  "mfa_required": false,
+  "environment": "production",
+  "notes": "Synthetic example only. Do not use real secrets."
+}

@@ -1,0 +1,10 @@
+name: inspect-access-policy
+description: Validate and normalize a user-supplied API access policy JSON object.
+input_schema:
+  type: object
+  additionalProperties: false
+  required: [policy]
+  properties:
+    policy:
+      type: object
+      additionalProperties: true

@@ -1,0 +1,10 @@
+name: generate-audit-report
+description: Generate an explainable JSON audit report from a supplied policy.
+input_schema:
+  type: object
+  additionalProperties: false
+  required: [policy]
+  properties:
+    policy:
+      type: object
+      additionalProperties: true
